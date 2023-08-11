@@ -172,7 +172,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding: 100px;
+    padding: 100px 100px 120px 100px;
 }
 
 .banner-title {
@@ -224,10 +224,6 @@ header {
     padding: 20px 25px;
     background-color: #FBB731;
     border-radius: 5px;
-}
-
-main {
-    height: 432px;
 }
 
 
