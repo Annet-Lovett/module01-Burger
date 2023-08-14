@@ -313,6 +313,7 @@ header {
     padding: 10px 30px;
     margin: 0 auto;
     width: 152px;
+    cursor: pointer;
     /*justify-content: center;*/ 
 }
 
