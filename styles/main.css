@@ -178,7 +178,7 @@ header {
     background-image: url(../images/homemade-tasty-beef-burger.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: 0 center;
     padding: 100px 100px 120px 100px;
     margin-bottom: 65px;
 }
@@ -633,3 +633,95 @@ header {
     margin-bottom: 10px;
     margin-top: 8px;
 }
+
+
+/* Responsive */
+
+@media (max-width: 1000px) {
+    .container {
+        max-width: 738px;
+        padding-left: 15px;
+    }
+    .header-logo {
+        width: 150px;
+        height: 48px;
+        background-size: contain;
+    }
+
+    .header-nav {
+        gap: 22px;
+    }
+    
+    .header-item {
+        flex-basis: 75.5%;
+    }
+
+    .bg {
+        margin-bottom: 72px;
+    }
+
+    .banner-box {
+        background-position: -80px center;
+        padding: 100px 40px 120px;
+        margin-bottom: 43px;
+    }
+
+    .menu-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px 15px;
+        margin-bottom: 50px;
+    }
+
+    .breadcrumbs {
+        margin-left: 13px;
+    }
+
+    .title {
+        margin-left: 11px;
+    }
+    
+    .description {
+        margin-left: 215px;
+    }
+
+    .footer {
+        margin-top: 109px;
+    }
+
+    .footer-box {
+        margin-top: -47px;
+    }
+
+    .footer-box {
+        display: grid;
+        justify-content: space-between;
+        margin-top: -47px;
+        gap: 0px 37px;
+        grid-template-columns: 100px 1fr 1fr;
+    }
+    
+    .footer-box {
+        display: grid;
+        justify-content: space-between;
+        margin-top: -47px;
+        gap: 0px 37px;
+        grid-template-columns: 100px 1fr 1fr;
+    }
+    
+    .footer-list-tel li a {
+        font-size: 0px;
+    }
+
+    .footer-box::after {
+        content: "+ 7 900 787 13-13 \0a \0a + 7 900 700 14-14";
+        color: #DEDEDE;
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 1;
+        text-transform: uppercase; 
+        margin-top: 10px;
+        white-space: pre
+
+    }
+
+    }
