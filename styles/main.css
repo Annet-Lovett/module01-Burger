@@ -848,7 +848,7 @@ header {
     }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 320px) {
     .banner-box {
         background-position: 25% center;
         padding: 35px 24px 54px;
