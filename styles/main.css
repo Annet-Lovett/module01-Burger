@@ -541,7 +541,6 @@ header {
     display: flex;
     justify-content: flex-end;
     position: relative;
-
 }
 
 .visual-bg {
@@ -986,9 +985,13 @@ header {
 
     .footer-box .footer-item:first-of-type {
         display: flex;
-        gap: 65px;
+        gap: 20px;
     }
+}
 
-
-
+@media (max-width: 282px) {
+    .footer-box .footer-item:first-of-type {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
 }
